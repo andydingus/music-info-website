@@ -1,3 +1,28 @@
-* {
+
+
+/* Header styles */
+
+/* Nav styles */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-pages {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    border-style: solid;
+
+    padding: 10px;
     margin: 0;
+
+    font-size: 16px;
+}
+
+.nav-link a {
+    padding: 8px 16px;
 }
